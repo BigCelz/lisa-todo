@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/lisa-todo/static/css/main.c1c12105.css",
+    "main.js": "/lisa-todo/static/js/main.e3b03e14.js",
+    "static/js/453.55a77afc.chunk.js": "/lisa-todo/static/js/453.55a77afc.chunk.js",
+    "index.html": "/lisa-todo/index.html",
+    "main.c1c12105.css.map": "/lisa-todo/static/css/main.c1c12105.css.map",
+    "main.e3b03e14.js.map": "/lisa-todo/static/js/main.e3b03e14.js.map",
+    "453.55a77afc.chunk.js.map": "/lisa-todo/static/js/453.55a77afc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c1c12105.css",
+    "static/js/main.e3b03e14.js"
+  ]
+}
