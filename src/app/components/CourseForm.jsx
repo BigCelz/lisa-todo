@@ -14,7 +14,7 @@ const CourseForm = () => {
   const [courseTitle, setCourseTitle] = useState("");
 
   const handleCourseSubmit = () => {
-    if (!courseTitle) return alert("Please add a course title");
+    if (!courseTitle) return alert("Please add a task");
     addCourse({
       id: Math.ceil(Math.random() * 1000000),
       title: courseTitle,
@@ -36,7 +36,7 @@ const CourseForm = () => {
             type="text"
             value={courseTitle}
             onChange={(e) => setCourseTitle(e.target.value)}
-            placeholder="Enter course title"
+            placeholder="Enter task"
             className="flex-1 px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-500"
           />
           <button
